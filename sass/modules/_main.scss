@@ -1,0 +1,38 @@
+body{
+    font-family: $main-font;
+    font-size: $main-font-size;
+    background-color: $main-bg;
+} 
+
+.bodyC {
+    position:relative;
+    padding:0;
+    background-color:#f1f1f1;
+    margin-right:-15px;
+}
+
+.mainHead {
+    height:110px;
+    background-color: #ffffff;
+}
+.firstHeading { margin:0; }
+
+.mainC_nav { 
+    position:absolute; right:0; 
+    margin-right:30px; margin-top:35px; 
+    z-index:100; cursor:pointer;
+    li { position:relative; margin-right:5px; }
+    span { font-size:3rem; color:#b7bbc2; }
+}
+
+.calendar, .trending, .sports { 
+    height:350px;
+    background-color: #959595;
+    color:white;
+    font-size: .8rem;
+}
+
+.box2, .box3 { padding-left:0; }
+
+.tempLink { text-decoration:underline; }
+.collapseLi { padding-top:5px;}

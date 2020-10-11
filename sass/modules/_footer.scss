@@ -1,0 +1,39 @@
+footer { 
+    h4 {margin:0;}
+    background-color: #333; 
+    color: white;
+}
+
+.mainCfooter {
+    margin-top:200px;
+    padding-top:130px;
+    background-color: #444444;
+}
+
+.footerStuff { 
+    padding-bottom:100px; 
+    .footerContent { 
+        position:relative; left:7.5%; 
+        padding:0; width:90%; 
+        li {
+            /*display:inline-block;
+            margin-right:50px;*/
+            max-width:250px;
+        }
+        h3 { 
+            font-family:"Lato";
+            font-weight:300;
+            font-size:2.25rem;
+        }
+    }
+}
+
+.firstHeader { margin-top:0; margin-bottom:10px; }
+
+.childList { 
+    font-weight:300;
+    list-style-type:none; 
+    padding-left:20px;
+    font-size:12.5px;
+    li { padding-top:10px; }
+}

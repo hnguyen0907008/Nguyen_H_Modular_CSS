@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+
+#mBubble { 
+    position:absolute; 
+    background-color:#853c37; 
+    width:15px; height:15px; 
+    font-size:1rem; 
+    left:25px; 
+    top:-3px; 
+}
+
+.clLogo { 
+    position:relative;
+    top: 50%;
+    transform: translateY(-50%);
+    left:40px;
+}
+
+
+
+
+.calendar, .trending, .sports { 
+    height:350px;
+    background-color: #959595;
+    color:white;
+    font-size: .8rem;
+}
+
+.box2, .box3 { padding-left:0; }
+
+#mainImg { width: 100%; }
+
+
+
+.firstHeading { margin:0; }
+
+
+.tempLink { text-decoration:underline; }
+.collapseLi { padding-top:5px;}
+
+
+/*attempting to style dropdowns*/
+
+
+
+/* ---- prof portal styles ---*/
+
+
+
+
+
+.tCal { position:relative; left:40px; padding:0; /*background-color: #333;*/ }
+
+.calSnap { background-color: #c5c5c3; color:white; }
+
+.notice { background-color: #dfb6b2; color:white; }
+
+.genericNotice { background-color: #b8dac7; color:white; }
+
+.allNotices > div { height:170px; margin-bottom:15px; }
+

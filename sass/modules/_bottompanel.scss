@@ -1,0 +1,43 @@
+.courseStuff, .calendarStuff, .lowerPanelNav, .footerStuff { margin:0; }
+
+#bottomPanel {
+    margin:0;
+  }
+
+//course
+.courseInfo { 
+    position:relative;
+    left:40px;
+    font-weight:300;
+    color:#969595;
+    h2 { 
+        font-weight:300; 
+        font-size:4.2rem;
+        padding-top:10px;
+    }
+    h3 { font-weight:300; margin-bottom:15px; }
+    hr { max-width:185px; margin-left:0; }
+}
+
+.courseInfo > h3 > i { margin-right:10px; cursor:pointer; }
+
+//week
+.lowerPanelNav { 
+    font-size:1.8rem; 
+    li { margin-right:60px; cursor:pointer; }
+    li:last-child { margin-right:0; }
+    .weeklySched {
+        position:relative;
+        left:40px;
+        color:#969595;
+        margin-top:30px;
+        margin-bottom:30px;
+    }
+    .weeklySched > ul { margin-bottom:0; }
+}
+
+.calendarStuff hr { margin-top:0; }
+.bottomCalendar { position:relative; left:40px; }
+.tCal { position:relative; left:40px; padding:0; }
+
+.calSnap { background-color: #c5c5c3; color:white; }
