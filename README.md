@@ -1,4 +1,4 @@
-# ${1:Modular CSS Project}
+# Modular CSS Project
 
 Rewrite some of the CSS for the course home page (supplied) as SASS. Think about modulare
 development and how to break down the page into logical sections. Use the SASS language to
